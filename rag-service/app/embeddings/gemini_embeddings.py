@@ -24,20 +24,7 @@ class GeminiEmbeddings:
         """Return one document embedding for every non-empty input text."""
         if not texts or any(not isinstance(text, str) or not text.strip() for text in texts):
             raise EmbeddingError("Texts to embed must be a non-empty list of strings")
-        try:
-            response = genai.embed_content(
-                model=EMBEDDING_MODEL,
-                content=list(texts),
-                task_type="retrieval_document",
-                request_options={"timeout": EMBEDDING_REQUEST_TIMEOUT_SECONDS},
-            )
-            vectors = response["embedding"]
-        except Exception as exc:
-            raise EmbeddingError("Gemini embedding request failed") from exc
-
-        if not isinstance(vectors, list) or len(vectors) != len(texts) or any(not vector for vector in vectors):
-            raise EmbeddingError("Gemini returned invalid document embeddings")
-        return vectors
+        return [self._embed(text, task_type="retrieval_document") for text in texts]
 
     def embed_query(self, text: str) -> list[float]:
         """Return an embedding optimized for a retrieval query."""

@@ -45,9 +45,9 @@ const createRequest = async (req, res, next) => {
       priority: request.priority || 'medium',
       status: 'queued',
       knowledgeReferences: rag.results.map((document) => ({
-        documentId: document.id,
-        title: document.title,
-        category: document.category,
+        documentId: String(document.id),
+        title: String(document.title),
+        category: String(document.category),
       })),
     });
 

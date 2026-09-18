@@ -9,14 +9,17 @@ const PRIORITY_ORDER = { urgent: 0, high: 1, medium: 2, low: 3 };
  * @returns {Promise<string>}
  */
 const generateTicketId = async () => {
-  const last = await Ticket.findOne({}, { ticketId: 1 }).sort({ createdAt: -1 });
+  const last = await Ticket.findOne({ ticketId: { $regex: /^TCK-\d+$/ } })
+    .sort({ ticketId: -1 })
+    .select('ticketId');
 
   if (!last || !last.ticketId) {
     return 'TCK-1001';
   }
 
   const num = parseInt(last.ticketId.replace('TCK-', ''), 10);
-  return `TCK-${num + 1}`;
+  const next = Number.isNaN(num) ? 1001 : num + 1;
+  return `TCK-${next}`;
 };
 
 /**
@@ -25,9 +28,20 @@ const generateTicketId = async () => {
  * @returns {Promise<Ticket>}
  */
 const createTicket = async (data) => {
-  const ticketId = await generateTicketId();
-  const ticket = new Ticket({ ...data, ticketId });
-  return await ticket.save();
+  let lastError;
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    try {
+      const ticketId = await generateTicketId();
+      const ticket = new Ticket({ ...data, ticketId });
+      return await ticket.save();
+    } catch (error) {
+      lastError = error;
+      if (error.code !== 11000) {
+        throw error;
+      }
+    }
+  }
+  throw lastError;
 };
 
 /**
