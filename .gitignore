@@ -1,0 +1,23 @@
+# Node
+node_modules/
+.env
+.env.local
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build
+/dist/
+/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+/prisma/dev.db
+/prisma/dev.db-journal

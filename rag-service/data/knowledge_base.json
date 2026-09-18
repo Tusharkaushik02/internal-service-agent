@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kb-001",
+    "title": "VPN Access Request",
+    "category": "IT",
+    "content": "Employees can request VPN access by submitting an IT service request. The IT team will provision VPN credentials within 2 business days. Employees must install the company-approved VPN client (GlobalProtect) before credentials are activated. Multi-factor authentication is required for all VPN connections."
+  },
+  {
+    "id": "kb-002",
+    "title": "Password Reset Procedure",
+    "category": "IT",
+    "content": "Employees can reset their corporate password through the self-service password reset portal at password.internal.company.com. If the portal is unavailable, contact the IT helpdesk. Passwords must be at least 12 characters, include uppercase, lowercase, numbers, and a special character. Passwords expire every 90 days."
+  },
+  {
+    "id": "kb-003",
+    "title": "Laptop and Hardware Requests",
+    "category": "IT",
+    "content": "New employees receive standard hardware (laptop, headset, keyboard, mouse) within their first week. Additional or replacement hardware must be requested through an IT service request with manager approval. Hardware requests for upgrades require justification and are subject to budget approval."
+  },
+  {
+    "id": "kb-004",
+    "title": "Software Installation and Licensing",
+    "category": "IT",
+    "content": "Employees must not install unauthorized software on company devices. Software requests should be submitted via IT service request with business justification. Licensed software is provisioned centrally. Open-source tools may be approved on a case-by-case basis. All software is subject to security review."
+  },
+  {
+    "id": "kb-005",
+    "title": "Email and Account Access Issues",
+    "category": "IT",
+    "content": "For email access problems, first check internet connectivity and try restarting the email client. If the issue persists, submit an IT ticket. Account lockouts are resolved by the IT helpdesk after identity verification. New email aliases or shared mailbox access requires manager approval."
+  },
+  {
+    "id": "kb-006",
+    "title": "Annual Leave Policy",
+    "category": "HR",
+    "content": "Full-time employees accrue 20 days of annual leave per year. Leave must be applied for at least 5 business days in advance through the HR portal. Unused leave can be carried over up to 5 days into the next calendar year. Leave encashment is available under specific conditions as per employment contract."
+  },
+  {
+    "id": "kb-007",
+    "title": "Sick Leave and Medical Leave",
+    "category": "HR",
+    "content": "Employees are entitled to 12 days of paid sick leave annually. Sick leave beyond 3 consecutive days requires a medical certificate. Long-term medical leave (beyond 2 weeks) should be reported to HR for documentation and payroll processing. Emergency sick leave can be applied retroactively within 2 business days of return."
+  },
+  {
+    "id": "kb-008",
+    "title": "Work From Home Policy",
+    "category": "HR",
+    "content": "Employees may work from home up to 2 days per week with prior manager approval. WFH requests must be submitted through the HR portal. Employees are expected to be reachable during core hours (10am–4pm) and attend all scheduled meetings virtually. WFH is not permitted on days with mandatory in-person meetings."
+  },
+  {
+    "id": "kb-009",
+    "title": "Employee Onboarding Process",
+    "category": "HR",
+    "content": "New employees undergo a 2-week onboarding program including HR orientation, IT setup, compliance training, and department-specific briefings. Managers are responsible for preparing the workspace, assigning a buddy, and scheduling introductory meetings. All mandatory training modules must be completed within the first 30 days."
+  },
+  {
+    "id": "kb-010",
+    "title": "Expense Reimbursement",
+    "category": "Finance",
+    "content": "Employees can claim reimbursement for approved business expenses by submitting receipts through the Finance portal within 30 days of the expense. Meals are reimbursable up to ₹500 per day during business travel. Travel expenses require prior approval from the reporting manager. Reimbursements are processed in the next payroll cycle."
+  },
+  {
+    "id": "kb-011",
+    "title": "Salary and Payslip Queries",
+    "category": "Finance",
+    "content": "Payslips are available in the employee self-service portal by the 5th of each month. For salary discrepancies, submit a Finance service request with details. Salary revisions are processed during the annual appraisal cycle. Advance salary requests are subject to approval by Finance and HR and are limited to one per year."
+  },
+  {
+    "id": "kb-012",
+    "title": "Travel and Accommodation Booking",
+    "category": "Admin",
+    "content": "Business travel bookings must be made through the company's approved travel portal or by submitting an Admin service request. Accommodation bookings are made by the admin team for approved travel. Economy class is the default for flights under 6 hours. International travel requires advance approval from department head and Finance."
+  },
+  {
+    "id": "kb-013",
+    "title": "Office Supplies and Stationery",
+    "category": "Admin",
+    "content": "Standard office supplies (pens, notebooks, sticky notes) can be requested through the Admin service request portal. Bulk orders require manager approval. Employees at remote locations can request supplies to be shipped. Specialized equipment requests are subject to budget availability and require Finance approval."
+  },
+  {
+    "id": "kb-014",
+    "title": "Meeting Room Booking",
+    "category": "Admin",
+    "content": "Meeting rooms can be booked through the internal room booking system (rooms.internal.company.com). Rooms should be released if not in use within 15 minutes of the booking start time. Catering for meetings of 10 or more people must be arranged 48 hours in advance via an Admin request. Recurring bookings require admin team coordination."
+  },
+  {
+    "id": "kb-015",
+    "title": "Internal Transfer and Role Change",
+    "category": "General",
+    "content": "Employees interested in internal transfers should discuss with their current manager and the target department head. An internal transfer request must be submitted through the HR portal. The process typically takes 4–6 weeks including notice period to current team. Role changes affecting compensation are subject to Finance and leadership approval."
+  },
+  {
+    "id": "kb-016",
+    "title": "Office Wi-Fi Access",
+    "category": "IT",
+    "content": "Employees can connect to the secure office Wi-Fi using their corporate username and password. Guests must use the separate visitor network supplied by reception. If the corporate Wi-Fi connection fails, restart the device, confirm the correct network is selected, and open an IT ticket with the office location and error message."
+  },
+  {
+    "id": "kb-017",
+    "title": "Information Security Incident Reporting",
+    "category": "General",
+    "content": "Employees must report suspected phishing emails, lost company devices, accidental data sharing, or unusual account activity immediately to the IT security team. Do not click suspicious links or forward sensitive information. Preserve relevant details such as the sender, time, and screenshots so the incident can be investigated promptly."
+  },
+  {
+    "id": "kb-018",
+    "title": "Employee ID Card and Building Access",
+    "category": "Admin",
+    "content": "New employees receive an ID card and building-access badge during onboarding. Report a lost or damaged card to Admin immediately so access can be disabled and a replacement issued. Access to restricted areas requires manager approval and is added by the facilities team after authorization."
+  },
+  {
+    "id": "kb-019",
+    "title": "Attendance and Timesheet Submission",
+    "category": "HR",
+    "content": "Employees must record attendance and submit weekly timesheets through the HR portal by the end of each Friday. Corrections to missed punches should be requested within five business days and require manager approval. Repeated missing timesheets can delay payroll processing and should be resolved with HR."
+  },
+  {
+    "id": "kb-020",
+    "title": "Office Facilities and Maintenance",
+    "category": "Admin",
+    "content": "Report workspace, lighting, air-conditioning, cleaning, or pantry issues through an Admin service request. Include the floor, room, and a clear description of the problem. Urgent safety issues such as water leaks or electrical hazards should also be reported directly to reception so facilities can respond immediately."
+  }
+]
